@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "zandefoundation",
-    "currentPage": "contact.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 125,
+    "uniqCompNum": 126,
     "versionPublish": "3.10.4"
   },
   "pages": {
@@ -115,12 +115,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -204,9 +205,9 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1452421822248-d4c2b47f0c81-1400x1050-76.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "aboutus.html",
+              "alt": "About the Foundation",
+              "title": "About the Foundation",
               "linkInNewWindow": false
             },
             "video": {
@@ -265,9 +266,9 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1444210971048-6130cf0c46cf-1400x931-6.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "ministries.html",
+              "alt": "Ministries",
+              "title": "Ministries",
               "linkInNewWindow": false
             },
             "video": {
@@ -323,9 +324,9 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1469131792215-9c8aaff71393-1400x933-69.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "give.html",
+              "alt": "Give. Show your support",
+              "title": "Give. Show your support",
               "linkInNewWindow": false
             },
             "video": {
@@ -494,7 +495,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -595,12 +596,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -688,9 +690,9 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/zadock-daniels-lg-1400x1210-0.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "zadocksamuels.html",
+              "alt": "Zadock and Ethel Daniels",
+              "title": "Zadock and Ethel Daniels",
               "linkInNewWindow": false
             },
             "video": {
@@ -747,9 +749,9 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/story-of-ja-1400x1050-63.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "storyofjamaica.html",
+              "alt": "A History of the Church in Jamaica",
+              "title": "A History of the Church in Jamaica",
               "linkInNewWindow": false
             },
             "video": {
@@ -781,7 +783,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -800,9 +802,9 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1461374699149-b941f35a8689-1400x1051-45.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "statementoffaith.html",
+              "alt": "Statement of Faith",
+              "title": "Statement of Faith",
               "linkInNewWindow": false
             },
             "video": {
@@ -819,7 +821,7 @@
           },
           "title": "Statement of Faith",
           "text": "This we believe about &nbsp;God, the Bible, people and the church ...",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ourfaith.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"statementoffaith.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_styles": {
             "H3": {
               "color": "#553982",
@@ -862,7 +864,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -959,12 +961,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -1139,7 +1142,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -1236,12 +1239,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -1288,7 +1292,8 @@
               "color": "#232323"
             },
             ".mbr-section-title": {
-              "color": "#553982"
+              "color": "#553982",
+              "font-size": "36px"
             }
           },
           "_anchor": "form1-30",
@@ -1373,7 +1378,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -1470,12 +1475,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -1560,7 +1566,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -1730,7 +1736,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -1820,12 +1826,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         }
       ]
@@ -2024,12 +2031,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -2067,7 +2075,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
@@ -2079,9 +2087,9 @@
         }
       ]
     },
-    "ourfaith.html": {
+    "statementoffaith.html": {
       "settings": {
-        "title": "Our Faith"
+        "title": "Statement of Faith"
       },
       "components": [
         {
@@ -2164,12 +2172,13 @@
               "linkInNewWindow": false,
               "name": "streetsign",
               "family": "et-line",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://progressumhost.com/zande\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
@@ -2389,7 +2398,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"ourfaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
           "_styles": {
             "B": {
               "color": "#2e2e2e",
