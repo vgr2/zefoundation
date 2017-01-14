@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "zandefoundation",
-    "currentPage": "index.html",
+    "currentPage": "ministries.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -23,7 +23,10 @@
     "versionFirst": "3.10.4",
     "uniqCompNum": 126,
     "versionPublish": "3.10.4",
-    "path": "@PROJECT_PATH@"
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/zefoundationlogo2-128x141-49.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
