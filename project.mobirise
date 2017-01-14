@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "zandefoundation",
-    "currentPage": "index.html",
+    "currentPage": "ministries.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,11 @@
     },
     "versionFirst": "3.10.4",
     "uniqCompNum": 126,
-    "versionPublish": "3.10.4"
+    "versionPublish": "3.10.4",
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/zefoundationlogo2-128x141-49.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
@@ -465,6 +469,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -495,15 +507,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     },
@@ -775,6 +779,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "color": "#553982",
+              "font-size": "36px"
+            }
+          },
           "_anchor": "msg-box5-3g",
           "_params": {
             "imageSize": "36",
@@ -821,19 +831,21 @@
           },
           "title": "Statement of Faith",
           "text": "This we believe about &nbsp;God, the Bible, people and the church ...",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"statementoffaith.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            "H3": {
-              "color": "#553982",
-              "font-size": "36px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"statementoffaith.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -864,15 +876,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     },
@@ -1112,6 +1116,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -1142,15 +1154,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     },
@@ -1348,6 +1352,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -1378,15 +1390,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     },
@@ -1536,6 +1540,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -1566,15 +1578,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     },
@@ -1706,6 +1710,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -1736,15 +1748,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         },
         {
           "_inherit": "menu",
@@ -2045,6 +2049,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -2075,15 +2087,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     },
@@ -2368,6 +2372,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-32",
           "_params": {
             "paddingTop": 3,
@@ -2398,15 +2410,7 @@
           },
           "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
           "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
-          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>",
-          "_styles": {
-            "B": {
-              "color": "#2e2e2e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "16px"
-            }
-          }
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
         }
       ]
     }
