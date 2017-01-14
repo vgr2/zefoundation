@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "zandefoundation",
-    "currentPage": "ministries.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -987,7 +987,7 @@
           "_anchor": "msg-box8-1e",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "1",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1444210971048-6130cf0c46cf-2000x1330-2.jpg",
@@ -1500,8 +1500,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-x",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "4",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1469131792215-9c8aaff71393-2000x1333-30.jpg",
@@ -2197,8 +2197,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-34",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "4",
+            "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1462219157779-8a35f2687626-2000x1500-88.jpg",
