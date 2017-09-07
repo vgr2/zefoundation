@@ -150,7 +150,7 @@
               "color": "#915ce8"
             },
             ".mbr-section-lead": {
-              "font-size": "32px",
+              "font-size": "36px",
               "color": "#915ce8"
             },
             ".mbr-section-lead B": {
@@ -173,12 +173,12 @@
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": "0"
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.1"
           },
-          "title": "Supporting Christ Centered Ministries",
-          "text": "<b>The Zadock And Ethel Daniels Foundation</b>",
+          "title": "Supporting Christ Centered Ministries<br>",
+          "text": "The Zadock And Ethel Daniels Foundation",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_customCSS": "h1{\n    /* text-shadow: 1px 1px 9px #000080; */\n    background-color: rgba(255,255,255, 0.8);\n    border: solid 1px rgba(255,255,255, 1);\n    \n}\np{\n    /* text-shadow: 1px 1px 2px #f7da64, 1px 1px 5px #fff; */\n    /* text-shadow: 1px 1px 2px #000080; */\n    background-color: rgba(255,255,255, 0.8);\n    border: solid 1px rgba(255,255,255, 1);\n    /* color: #915ce8; */\n}"
         },
