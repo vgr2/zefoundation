@@ -17,16 +17,24 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
-      }
+        "isScrollToTopButton": true,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#915ce8",
+        "#88a2e1",
+        "#b089ef"
+      ]
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 126,
-    "versionPublish": "3.10.4",
+    "uniqCompNum": 135,
+    "versionPublish": "4.2.3",
     "path": "@PROJECT_PATH@",
     "favicon": "@PROJECT_PATH@/assets/images/zefoundationlogo2-128x141-49.png",
-    "noImageResize": "",
-    "google-analytics": ""
+    "noImageResize": "true",
+    "google-analytics": "",
+    "screenshot": "screenshot.png",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -36,7 +44,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -95,17 +104,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-c",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -125,8 +134,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_tags": [
@@ -141,31 +150,35 @@
               "color": "#ffffff"
             },
             ".mbr-section-lead": {
-              "font-size": "32px",
-              "color": "#ffffff"
+              "font-size": "36px",
+              "color": "#915ce8"
+            },
+            ".mbr-section-lead B": {
+              "color": "#915ce8"
             }
           },
+          "_customCSS": "h1{\n    /* text-shadow: 1px 1px 9px #000080; */\n    /* background-color: rgba(255,255,255, 0.8); */\n    background-color: rgba(145,92,232, 0.75);\n    /* border: solid 1px rgba(255,255,255, 1); */\n    \n}\np{\n    margin-top: 10px;\n    /* text-shadow: 1px 1px 2px #f7da64, 1px 1px 5px #fff; */\n    /* text-shadow: 1px 1px 2px #000080; */\n    /* background-color: rgba(145,92,232, 0.75); */\n    background-color: rgba(255,255,255, 0.8);\n    /* border: solid 1px rgba(255,255,255, 1); */\n    /* color: #915ce8; */\n}",
           "_anchor": "header1-a",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1467155679845-414db2d0bdad-2000x2500-25.jpg",
-            "bgColor": "#a07e49",
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/foundation-image-.jpg",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.1"
           },
-          "title": "Supporting Christ Centered Ministries",
+          "title": "Supporting Christ Centered Ministries<br>",
           "text": "The Zadock And Ethel Daniels Foundation",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
@@ -184,25 +197,25 @@
           },
           "_anchor": "msg-box5-h",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": "2",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -245,25 +258,25 @@
           },
           "_anchor": "msg-box5-s",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": 50,
             "paddingTop": "2",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -303,25 +316,25 @@
           },
           "_anchor": "msg-box5-13",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": "2",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -365,10 +378,10 @@
           "_name": "header3",
           "_anchor": "header3-1j",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "Board Members",
           "meta": "By John Smith posted July 20, 2016"
@@ -388,8 +401,15 @@
             }
           },
           "_params": {
+            "showBullets": false,
+            "fullWidth": true,
+            "spacing": "1",
             "paddingTop": "1",
             "paddingBottom": "1",
+            "filterBgColor": true,
+            "bgColor": "#efefef",
+            "showText": true,
+            "filter": false,
             "images": [
               {
                 "tags": "Creative",
@@ -451,14 +471,7 @@
                 "caption": "Mark Lincoln Dawes<br>Member,&nbsp;Jamaica<br>",
                 "active": false
               }
-            ],
-            "spacing": "1",
-            "showText": true,
-            "filter": false,
-            "bgColor": "#efefef",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery3-1i",
           "articleLayout": false,
@@ -482,13 +495,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -517,7 +530,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 2
       },
       "components": [
         {
@@ -576,17 +590,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-i",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -606,8 +620,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_styles": {
@@ -621,23 +635,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-q",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-1-work-stations-plus-espresso-jpg-2000x1333-58.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "About the Zadock And Ethel Daniels Foundation",
           "text": "<p>Supporting Christ Centered Ministry in Jamaica</p>",
@@ -669,31 +683,31 @@
           },
           "_anchor": "msg-box5-1m",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
             "imageSize": "27",
             "paddingTop": "1",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/zadock-daniels-lg-1400x1210-0.jpg",
+              "src": "@PROJECT_PATH@/assets/images/zadock-ethel-daniels-1029x1185.jpg",
               "link": "zadocksamuels.html",
               "alt": "Zadock and Ethel Daniels",
               "title": "Zadock and Ethel Daniels",
@@ -728,25 +742,25 @@
           },
           "_anchor": "msg-box5-1n",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": "29",
             "paddingTop": "1",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -787,25 +801,25 @@
           },
           "_anchor": "msg-box5-3g",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
             "imageSize": "36",
             "paddingTop": "1",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -851,13 +865,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -882,7 +896,9 @@
     },
     "ministries.html": {
       "settings": {
-        "title": "Ministries"
+        "title": "Ministries",
+        "order": 3,
+        "header_custom": ""
       },
       "components": [
         {
@@ -941,17 +957,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-u",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -971,8 +987,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_styles": {
@@ -986,23 +1002,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1e",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1444210971048-6130cf0c46cf-2000x1330-2.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Ministries",
           "text": "<p><b>Supporting Christ Centered Ministry in Jamaica</b></p>",
@@ -1026,90 +1042,216 @@
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
-            "H3": {
-              "font-size": "36px",
-              "color": "#553982"
+            "SMALL": {
+              "text-align": "right"
             }
           },
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-2v",
+          "_anchor": "header3-3j",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#efefef",
-            "showMeta": true
-          },
-          "title": "Assembly Hall Christian Brethren Assembly",
-          "meta": "Assembly Hall is a Gospel-Driven, Missions-Oriented, Christian Brethren Assembly.<br>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-2t",
-          "_params": {
-            "imageSize": "45",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/assemblyhall-img-1400x937-68.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Assembly Hall Christian Brethren Church",
-          "text": "<b style=\"font-size: 1.07rem; line-height: 1.5;\">Address</b><br>188 Orange Street. <br>Kingston. Jamaica. W.I.<br><br><b>Telephone</b><br>1 (876) 922-3006<br><br><b>Website<br></b><a href=\"http://www.assemblyhalljm.org\" target=\"_blank\">www.assemblyhalljm.org</a><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-2x",
-          "_params": {
+            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#efefef"
           },
-          "text": "<p><b>Supported Programmes</b></p><ul><li>Easter Camp catering to the children in the surrounding innercity community.</li></ul>"
+          "title": "Assembly Hall Pre Easter Camp",
+          "meta": "Date: April 7-9 2017<br>Theme: Face the Book<br>Location: Midland Bible Institute, Clarendon<br>Target Groups: Sunday School, Girls Rally, Boy Club Youth Group<br>Total Participants 66<br>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#efefef",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0068-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0068-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0056-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0056-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0035-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0035-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0033-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0033-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170408-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170408-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0002-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0002-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0014-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0014-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0015-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0015-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0018-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0018-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0021-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0021-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0025-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0025-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0031-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0031-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0034-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0034-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0048-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0048-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0049-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0049-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170419-wa0053-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20170419-wa0053-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20161105-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20161105-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery3-3k",
+          "articleLayout": false,
+          "allItem": "All"
         },
         {
           "_tags": [
@@ -1129,13 +1271,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1160,7 +1302,8 @@
     },
     "contact.html": {
       "settings": {
-        "title": "Get In Touch"
+        "title": "Get In Touch",
+        "order": 5
       },
       "components": [
         {
@@ -1219,17 +1362,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-v",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1249,8 +1392,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_styles": {
@@ -1264,23 +1407,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1f",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1466699514193-d2327ed2cccb-2000x1125-42.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Contact Us",
           "text": "<p>Supporting Christ Centered Ministry in Jamaica</p>",
@@ -1302,19 +1445,19 @@
           },
           "_anchor": "form1-30",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "Want to talk with us?&nbsp;",
           "subtitle": "Call the number <a href=\"contact.html#contacts1-32\">below</a> or simply contact us by filling out and submitting the form below and we will get in touch with you as soon as possible.",
@@ -1365,13 +1508,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1396,7 +1539,8 @@
     },
     "give.html": {
       "settings": {
-        "title": "Give"
+        "title": "Give",
+        "order": 6
       },
       "components": [
         {
@@ -1455,17 +1599,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-w",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1485,8 +1629,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_styles": {
@@ -1500,23 +1644,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-x",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1469131792215-9c8aaff71393-2000x1333-30.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Give",
           "text": "<p>Article header with background image and parallax effect.</p>",
@@ -1553,13 +1697,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1584,7 +1728,8 @@
     },
     "zadocksamuels.html": {
       "settings": {
-        "title": "Who was Zadock Samuels"
+        "title": "Who was Zadock Samuels",
+        "order": 7
       },
       "components": [
         {
@@ -1599,23 +1744,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-20",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1465631494067-3e0491e95bd1-2000x1333-87.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Who was Zadock Daniels?",
           "text": "<p>Supporting Christ Centered Ministry in Jamaica</p>",
@@ -1633,34 +1778,34 @@
           },
           "_anchor": "msg-box5-2a",
           "_params": {
-            "imageSize": "21",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "27",
             "paddingTop": "1",
-            "paddingBottom": 0,
-            "parallax": true,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/zadock-daniels-1400x1516-83.jpg",
+              "src": "@PROJECT_PATH@/assets/images/zadock-ethel-daniels-1029x1185.jpg",
               "link": "",
-              "alt": "",
-              "title": "",
+              "alt": "Zadock and Ethel Daniels",
+              "title": "Zadock and Ethel Daniels",
               "linkInNewWindow": false
             },
             "video": {
@@ -1723,13 +1868,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1806,17 +1951,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1x",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1836,15 +1981,16 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         }
       ]
     },
     "storyofjamaica.html": {
       "settings": {
         "title": "Story of Jamaica",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 8
       },
       "components": [
         {
@@ -1859,23 +2005,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-2d",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1444851197882-6783757d2f9c-2000x1333-25.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Story of Jamaica",
           "text": "<p>Supporting Christ Centered Ministry in Jamaica</p>",
@@ -1896,25 +2042,25 @@
           },
           "_anchor": "msg-box5-2e",
           "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "31",
             "paddingTop": "1",
             "paddingBottom": 0,
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -2011,17 +2157,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-2h",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2041,8 +2187,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_tags": [
@@ -2062,13 +2208,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -2093,7 +2239,8 @@
     },
     "statementoffaith.html": {
       "settings": {
-        "title": "Statement of Faith"
+        "title": "Statement of Faith",
+        "order": 9
       },
       "components": [
         {
@@ -2152,17 +2299,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1b",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2182,8 +2329,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Z and E Foundation</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
         },
         {
           "_styles": {
@@ -2197,23 +2344,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-34",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "4",
             "paddingBottom": "2",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1462219157779-8a35f2687626-2000x1500-88.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Statement of Faith",
           "text": "<p>Article header with background image and parallax effect.</p>",
@@ -2235,10 +2382,10 @@
           "_name": "header3",
           "_anchor": "header3-35",
           "_params": {
+            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "1",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "&nbsp;What We Believe About The Bible",
           "meta": "By John Smith posted July 20, 2016"
@@ -2272,10 +2419,10 @@
           "_name": "header3",
           "_anchor": "header3-38",
           "_params": {
+            "showMeta": true,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "&nbsp;What We Believe About God",
           "meta": "We believe in one God, eternally existing in three persons: FATHER, SON and HOLY SPIRIT"
@@ -2309,10 +2456,10 @@
           "_name": "header3",
           "_anchor": "header3-3a",
           "_params": {
+            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "1",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "&nbsp;What We Believe About People",
           "meta": "By John Smith posted July 20, 2016"
@@ -2346,10 +2493,10 @@
           "_name": "header3",
           "_anchor": "header3-3b",
           "_params": {
+            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "1",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "&nbsp;What We Believe About The Church",
           "meta": "By John Smith posted July 20, 2016"
@@ -2385,13 +2532,255 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "streetsign",
+              "family": "et-line",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<strong>Contacts</strong><br>James Z. Daniels<br>605 Southshore Parkway<br>Durham, NC 27703<br><br>Phone: +1 (919) 237-2977<br>",
+          "text2": "<b><br></b><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Alfred Byfield</span><br>5 Three Oaks Road<br>Kingston 8, Jamaica<br><br>Phone: +1 (876) 925-9792<br>",
+          "text3": "<strong>Links</strong><br><a href=\"index.html\">Home</a><br><a href=\"aboutus.html\">Abou\u001bt Us</a><br><a href=\"zadocksamuels.html\">Who was Zadock Samuels?</a><br><a href=\"storyofjamaica.html\">A History of the Church in Jamaica</a><br><a href=\"statementoffaith.html\">Statement of Faith</a><br><a href=\"ministries.html\">Ministries</a><br><a href=\"give.html\">Give</a><br><a href=\"contact.html\">Contact Us</a><br>"
+        }
+      ]
+    },
+    "news.html": {
+      "settings": {
+        "title": "News",
+        "meta_descr": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3m",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": "0.8",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "streetsign",
+              "family": "et-line",
+              "link": "index.html",
+              "size": 0,
+              "active": true,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zadock and Ethel Daniels Foundation</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"aboutus.html\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ministries.html\">MINISTRIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">NEWS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"give.html\">GIVE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"give.html\">GIVE</a></li>"
+        },
+        {
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures5",
+          "_styles": {
+            ".mbr-iconfont-features4": {
+              "color": "#e6e6e6 !important"
+            },
+            ".wraper": {
+              "border-color": "#e6e6e6 !important"
+            }
+          },
+          "_anchor": "extFeatures5-3q",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "iconsBgColor": "#e6e6e6",
+            "paddingTop": 3,
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures5_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.6
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "layers",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "expand",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "B": {
+              "color": "#2e2e2e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-3n",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
